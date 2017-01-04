@@ -1,13 +1,11 @@
 // ==========================================================================
-// LINKS ATOM
+// Links Atom
 // ==========================================================================
-//
-//
 
 /*doc
 ---
 title: Links
-name: 4_links
+name: links
 category: atoms
 ---
 
@@ -17,7 +15,6 @@ Use a plain anchor, or apply within a block link using `.link--fake`
     <a href="#">A plain link</a>
 ```
 
-
 ```html_example
     <a href="#" class="link--block">
         <h1>title</h1>
@@ -25,6 +22,7 @@ Use a plain anchor, or apply within a block link using `.link--fake`
     </a>
 ```
 */
+
 a,
 .link--fake {
     color: palette(pink);
@@ -45,12 +43,11 @@ a.u-text-color--black {
 }
 
 
-
 /*doc
 ---
 title: Block links
-name: 4_links_block
-parent: 4_links
+name: links_block
+parent: links
 ---
 
 Use `.link--block` to force block level links
@@ -58,7 +55,6 @@ Use `.link--block` to force block level links
 ```html_example
     <a href="#" class="link--block">A block level link</a>
 ```
-
 */
 
 .link--block {
@@ -68,8 +64,8 @@ Use `.link--block` to force block level links
 /*doc
 ---
 title: Plain links
-name: 4_links_plain
-parent: 4_links
+name: links_plain
+parent: links
 ---
 
 Use `.link--plain` for links where you don't want default link styles
@@ -77,7 +73,6 @@ Use `.link--plain` for links where you don't want default link styles
 ```html_example
     <a href="#" class="link--plain">A plain link</a>
 ```
-
 */
 
 @mixin link-plain() {
