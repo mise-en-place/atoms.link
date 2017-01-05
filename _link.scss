@@ -25,20 +25,20 @@ Use a plain anchor, or apply within a block link using `.link--fake`
 
 a,
 .link--fake {
-    color: palette(pink);
+    color: palette(teal);
     text-decoration: none;
-    @include underline(transparentize(palette(pink), 0.6));
+    // @include underline(transparentize(palette(pink), 0.6));
 
     @include link-hover() {
-        @include underline(palette(pink));
+        // @include underline(palette(pink));
     }
 }
 
 a.u-text-color--black {
-    @include underline(transparentize(black, 0.4));
+    // @include underline(transparentize(black, 0.4));
 
     @include link-hover() {
-        @include underline(black);
+        // @include underline(black);
     }
 }
 
