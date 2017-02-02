@@ -23,6 +23,8 @@ Use a plain anchor, or apply within a block link using `.link--fake`
 ```
 */
 
+@import './mixins';
+
 a,
 .link--fake {
     color: palette(teal);
@@ -74,16 +76,6 @@ Use `.link--plain` for links where you don't want default link styles
     <a href="#" class="link--plain">A plain link</a>
 ```
 */
-
-@mixin link-plain() {
-    color: currentColor;
-    background-image: none;
-    text-decoration: none !important;
-
-    @include link-hover {
-        background-image: none;
-    }
-}
 
 .link--plain {
     @include link-plain();
