@@ -23,8 +23,6 @@ Use a plain anchor, or apply within a block link using `.link--fake`
 ```
 */
 
-@import './mixins';
-
 a,
 .link--fake {
     color: palette(teal);

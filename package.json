@@ -1,0 +1,22 @@
+{
+  "name": "mep-atoms.link",
+  "version": "1.0.0",
+  "description": "Base atom for links",
+  "main": "stylesheets/_link.scss",
+  "eyeglass": {
+    "needs": "^1.0.0",
+    "name": "link",
+    "exports": "eyeglass-exports.js"
+  },
+  "keywords": [
+    "eyeglass-module",
+    "sass",
+    "mise-en-place"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mise-en-place/atoms.link.git"
+  },
+  "author": "Kind",
+  "license": "MIT"
+}
