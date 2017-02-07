@@ -18,5 +18,9 @@
     "url": "https://github.com/mise-en-place/atoms.link.git"
   },
   "author": "Kind",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "mep-tools.palette": "github:mise-en-place/tools.palette",
+    "mep-tools.link": "github:mise-en-place/tools.link"
+  }
 }

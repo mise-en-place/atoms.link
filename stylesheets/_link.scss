@@ -23,6 +23,9 @@ Use a plain anchor, or apply within a block link using `.link--fake`
 ```
 */
 
+@import "tool-palette";
+@import "tool-link";
+
 a,
 .link--fake {
     color: palette(teal);
