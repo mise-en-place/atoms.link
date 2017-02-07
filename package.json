@@ -5,7 +5,7 @@
   "main": "stylesheets/_link.scss",
   "eyeglass": {
     "needs": "^1.0.0",
-    "name": "link",
+    "name": "atom-link",
     "exports": "eyeglass-exports.js"
   },
   "keywords": [
