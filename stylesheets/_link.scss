@@ -23,8 +23,8 @@ Use a plain anchor, or apply within a block link using `.link--fake`
 ```
 */
 
-@import "tool-palette";
-@import "tool-link";
+@import "~mep-tools.palette";
+@import "~mep-tools.link";
 
 a,
 .link--fake {
